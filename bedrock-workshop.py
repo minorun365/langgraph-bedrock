@@ -1,5 +1,6 @@
 # AWS公式のBedrockワークショップ内にあるLangGraph用のNotebookが
-# そのままだと動かなかったので単一コードにしたもの
+# そのままだと動かなかったので単一コードにしたものです。
+# 処理がループしてLLM課金事故にならないよう、LangSmithを眺めながら実行ください。
 
 from __future__ import annotations
 
